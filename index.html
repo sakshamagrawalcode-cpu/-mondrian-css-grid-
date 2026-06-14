@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Painting</title>
+  <style>
+   
+    body{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+      width: 748px;
+      height: 748px;
+      display: grid;
+      grid-template-columns: 320px 419px ;
+      grid-template-rows: 414px 325px;
+      gap: 9px;
+      background-color: #000;
+    }
+    #a{
+        background-color:#E72F24;
+    }
+    #b,#c,#d{
+      background-color: #F0F1EC;
+    }
+    #c{
+      display: grid;
+      grid-template-rows: 296px 20px;
+      gap: 9px;
+      background-color: #000;
+    }
+    #c1,#c2{
+      background-color: #F0F1EC;
+    }
+    #d{
+      display: grid;
+      grid-template-columns: 1fr 50px;
+      gap: 9px;
+      background-color: #000;
+    }
+    #d1,#d2{
+      background-color: #F0F1EC;
+    }
+    #d1{
+      display: grid;
+      grid-template-rows: 1fr 20px;
+      gap: 9px;
+      background-color: #000;
+    }
+    #d1a{
+      background-color: #F0F1EC;
+    }
+    #d1b{
+      background-color: #F9D01E;
+    }
+    #d2{
+      display: grid;
+      grid-template-rows: 130px 1fr;
+      gap: 10px;
+      background-color: #000;
+    }
+    #d2a{
+      background-color: #004592;
+    }
+    #d2b{
+      background-color: #F0F1EC;
+    }
+    #d1b{
+      display: grid;
+      grid-template-columns: 1fr 153px;
+      gap: 9px;
+      background-color: #000;
+    }
+    #d1b1{
+      background-color:  #F9D01E;
+    }
+    #d1b2{
+        background-color:#232629 ;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="a"></div>
+    <div id="b"></div>
+    <div id="c">
+      <div id="c1"></div>
+      <div id="c2"></div>
+    </div>
+    <div id="d">
+      <div id="d1">
+        <div id="d1a"></div>
+        <div id="d1b">
+          <div id="d1b1"></div>
+          <div id="d1b2"></div>
+        </div>
+      </div>
+      <div id="d2">
+        <div id="d2a"></div>
+        <div id="d2b"></div>
+      </div>
+    </div>
+    
+  </div>
+  
+</body>
+
+</html>
